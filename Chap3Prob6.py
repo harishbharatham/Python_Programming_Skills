@@ -1,0 +1,10 @@
+import turtle
+x,y = eval(input('Enter coordinates for point 1:'))
+a,b = eval(input('Enter coordinates for point 2:'))
+turtle.penup()
+turtle.goto(x,y)
+turtle.pendown()
+turtle.write('('+str(x)+','+str(y)+')', font=12)
+turtle.goto(a,b)
+turtle.write('('+str(a)+','+str(b)+')',font=12)
+turtle.done()
